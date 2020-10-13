@@ -17,7 +17,6 @@ firebase.initializeApp({
   storageBucket: "superchat-project-demo.appspot.com",
   messagingSenderId: "770259978361",
   appId: "1:770259978361:web:1184e7377a14aa671aaca8",
-  measurementId: "G-NPH0GR5EY1"
 })
 
 const auth = firebase.auth();
@@ -31,7 +30,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h1>⚛️🔥💬</h1>
+        <h1>Jz's SuperChat</h1>
         <SignOut />
       </header>
 
@@ -53,7 +52,7 @@ function SignIn() {
   return (
     <>
       <button className="sign-in" onClick={signInWithGoogle}>Sign in with Google</button>
-      <p>Try to sign in with Google</p>
+      <p className="signin_text">Try to sign in with Google ☝️</p>
     </>
   )
 
@@ -105,7 +104,7 @@ function ChatRoom() {
 
       <input value={formValue} onChange={(e) => setFormValue(e.target.value)} placeholder="say something nice" />
 
-      <button type="submit" disabled={!formValue}>🕊️</button>
+      <button type="submit" disabled={!formValue}>✉️</button>
 
     </form>
   </>)

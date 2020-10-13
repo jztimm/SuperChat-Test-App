@@ -126,6 +126,10 @@ p {
   text-align: center;
 }
 
+.signin_text {
+  margin-left: 90px;
+}
+
 .message {
   display: flex;
   align-items: center;
