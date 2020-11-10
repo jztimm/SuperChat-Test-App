@@ -4,7 +4,7 @@
   A <code>ReactJS</code> Superchat designed after Twitch's and YouTube superchat.</div>
 <br/>
 <p align="center">
-  <img max-height: 90% width="100%" src="CatThoughts.gif" alt="gif of the app">
+  <img max-height: 90% width="100%" src="./public/Jzs-Superchat-gif.gif" alt="gif of the app">
 </p>
 <div align="center">
   <p>
